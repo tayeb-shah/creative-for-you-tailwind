@@ -9,4 +9,7 @@
     .skills{
        @apply hover:bg-[#F44335] font-jakarta text-sm border-[1.5px] border-[#F44335] py-1.5 rounded-full px-2 transition-all hover:text-white duration-200;
     }
+    .courses{
+        @apply hover:bg-[rgb(0,255,132)] font-jakarta text-xs md:text-base border-[1.5px] border-[#232323] py-2 px-4 rounded-full transition-all duration-200;
+    }
 }
