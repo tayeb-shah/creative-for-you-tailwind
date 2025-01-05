@@ -5,7 +5,8 @@ module.exports = {
     extend: {
       fontFamily: {
         'jakarta': ['"Plus Jakarta Sans", serif'],
-        'inter': ['"Inter", sans-serif']
+        'inter': ['"Inter", sans-serif'],
+        'poppins': ['"Poppins", serif']
       }
     },
   },
