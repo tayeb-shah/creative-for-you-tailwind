@@ -8,9 +8,9 @@
 
 @layer components {
     .skills{
-       @apply hover:bg-[#F44335] font-jakarta text-xs md:text-sm text-center border-[1.5px] border-[#F44335] py-1.5 rounded-full px-2 transition-all hover:text-white duration-200;
+       @apply hover:bg-[#F44335] font-jakarta dark:text-white text-xs md:text-sm text-center border-[1.5px] border-[#F44335] dark:border-slate-400 py-1.5 rounded-full px-2 transition-all hover:text-white duration-200;
     }
     .courses{
-        @apply hover:bg-[rgb(0,255,132)] font-jakarta text-xs md:text-base border-[1.5px] border-[#232323] py-2 px-4 rounded-full transition-all duration-200;
+        @apply hover:bg-[rgb(0,255,132)] font-jakarta text-xs md:text-base dark:text-white border-[1.5px] border-[#232323] dark:border-slate-700 py-2 px-4 rounded-full transition-all duration-200;
     }
 }

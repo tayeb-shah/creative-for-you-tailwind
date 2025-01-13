@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" calss="dark" id="htmlTag">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,22 +7,22 @@
     <link rel="stylesheet" href="css/tailwind.css">
     <title>Creative For You</title>
 </head>
-<body>
+<body class="bg-white dark:bg-gray-900">
     <!--? This is header section -->
-     <header class="sticky top-0 px-4 md:px-10 py-2 md:py-4 bg-white shadow-md z-50">
+     <header class="sticky top-0 px-4 md:px-10 py-2 md:py-4 bg-white dark:bg-gray-900 shadow-md z-50">
         <nav class="container mx-auto items-center flex justify-between ">
             <div>
-                <a href="#home">
-                    <img src="assets/logo.png" alt="Company Logo">
+                <a href="#home" class="">
+                    <img src="assets/logo.png" class="dark:bg-white dark:rounded-lg" alt="Company Logo">
                 </a>
             </div> 
 
             <div>
                 <ul class="hover:pointer font-jakarta gap-10 hidden md:flex items-center md:font-medium ">
-                    <a href="#"><li class="font-jakarta hover:underline">Home</li></a>
-                    <a href="#"><li class="hover:font-jakarta hover:underline">About Us</li></a>
-                    <a href="#"><li class="text-[#F44335] hover:underline" >Upskill</li></a>
-                    <a href="#"><li class="hover:underline">Contact Us</li></a>
+                    <a href="#"><li class="font-jakarta hover:underline text-black dark:text-white">Home</li></a>
+                    <a href="#"><li class="hover:font-jakarta hover:underline text-black dark:text-white">About Us</li></a>
+                    <a href="#"><li class="text-[#F44335]  hover:underline" >Upskill</li></a>
+                    <a href="#"><li class="hover:underline text-black dark:text-white">Contact Us</li></a>
                 </ul>
             </div>
 
@@ -31,7 +31,7 @@
                     <button class="bg-[#F44335] hover:bg-[#F44335] font-jakarta text-white py-2 px-1.5 rounded-lg transition-all hover:translate-y-[1px] hover:scale-105">Register Interest</button>
                 </a>
 
-                <button class="">
+                <button id="switch">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                         stroke="currentColor" class="size-7 dark:stroke-white transition-all hover:scale-105">
                         <path stroke-linecap="round" stroke-linejoin="round"
@@ -43,38 +43,38 @@
     </header>
 
     <!--? hero section -->
-    <div class="container grid grid-cols-12 md:px-20 py-5 bg-[#FAFAFA]">
+    <div class="container grid grid-cols-12 md:px-20 py-5 bg-[#FAFAFA] dark:bg-slate-900">
         <!--? left col -->
         <div class="px-5 md:pt-6 pt-4 col-span-12 md:col-span-6">
-            <h3 class="font-semibold text-lg mb-2">Discover <span class="text-[#F44335]">-</span> Interact <span class="text-[#F44335]">-</span> Engage </h3>
+            <h3 class="font-semibold text-lg dark:text-white mb-2">Discover <span class="text-[#F44335]">-</span> Interact <span class="text-[#F44335]">-</span> Engage </h3>
 
-            <h2 class="text-[45px] font-bold font-jakarta ">Google <br>
+            <h2 class="text-[45px] font-bold font-jakarta dark:text-white">Google <br>
                 <span class="text-[#F44335] border-b-4 border-b-[#F44335]">IT Support</span> <br>
                 Certificate
             </h2> 
 
-            <p class="py-5">This is your path to a career in IT. In this program, you'll learn in-demand skills with no degree or experience required. </p>
+            <p class="py-5 dark:text-white">This is your path to a career in IT. In this program, you'll learn in-demand skills with no degree or experience required. </p>
 
             <div class="flex items-center gap-5 pb-10">
                 <div class="text-center">
                     <span class="text-[#00FF84] font-intear font-bold text-xl">438</span>
-                    <p class="text-sm">Videos</p>
+                    <p class="text-sm dark:text-white">Videos</p>
                 </div>
                 <div class="text-center">
                     <span class="text-[#00FF84] font-intear font-bold text-xl">151</span>
-                    <p class="text-sm">Readings</p>
+                    <p class="text-sm dark:text-white">Readings</p>
                 </div>
                 <div class="text-center">
                     <span class="text-[#00FF84] font-intear font-bold text-xl">108</span>
-                    <p class="text-sm">Quizzes</p>
+                    <p class="text-sm dark:text-white">Quizzes</p>
                 </div>
                 <div class="text-center">
                     <span class="text-[#00FF84] font-bold text-xl">24</span>
-                    <p class="text-sm">Excercise</p>
+                    <p class="text-sm dark:text-white">Excercise</p>
                 </div>
                 <div class="text-center">
                     <span class="text-[#00FF84] font-bold text-xl">4</span>
-                    <p class="text-sm">Assignment</p>
+                    <p class="text-sm dark:text-white">Assignment</p>
                 </div>
             </div>
 
@@ -82,7 +82,7 @@
                 <button class="me-2 bg-[#F44335] text-white text-center py-2.5 px-6 rounded-lg transition-all hover:scale-105 duration-300 translate-x-1 hover:bg-[#c92519]">Sign up</button>
             </a>
             <a href="#">
-                <button class=" border border-[##20484F1A]  text-center py-2.5 px-6 rounded-lg transition-all hover:scale-105 duration-300 translate-x-1 hover:bg-[#20484F1A]">Learn more</button>
+                <button class=" border border-[##20484F1A] dark:text-white text-center py-2.5 px-6 rounded-lg transition-all hover:scale-105 duration-300 translate-x-1 hover:bg-[#20484F1A]">Learn more</button>
             </a>
         </div>
 
@@ -96,7 +96,7 @@
     <!--? this is company section -->
     <section class="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 jsutify-items-center items-center 
                     px-8 sm:px-10 lg:px-24  py-10">
-        <p class="text-black text-center lg:text-left col-span-1 lg:col-span-1 p-3 py-7">
+        <p class="text-black dark:text-white text-center lg:text-left col-span-1 lg:col-span-1 p-3 py-7">
             Pave your path to career success by gaining a professional
                 Google certificate with the support of C4U
         </p>
@@ -106,23 +106,23 @@
         </div>
 
         <div class="flex items-center size-full border-l-none border-t-2 sm:border-t-0 sm:border-l-2 border-gray-400 px-10 py-5">
-            <img src="/assets/workPensisons.png" class="w-full h-[100px] object-contain inline-block" alt="">
+            <img src="/assets/workPensisons.png" class="w-full h-[100px] object-contain inline-block dark:bg-gray-400 dark:rounded-md" alt="">
         </div>
         
         <div class="flex items-center size-full border-l-none border-t-2 sm:border-t-0 sm:border-l-2 border-gray-400 px-10 py-5">
-            <img src="assets/logo.png" alt="Logo" class="w-full h-[70px] sm:h-[100px] object-contain inline-block">
+            <img src="assets/logo.png" alt="Logo" class="w-full h-[70px] sm:h-[100px] object-contain inline-block dark:bg-gray-400 dark:rounded-md">
         </div>
     </section>
 
 
     <!--? this is learn section -->
-    <section class="container flex flex-col jsutify-items-center md:justify-between items-between md:items-center md:flex-row pt-24 bg-[#FAFAFA]">
+    <section class="container flex flex-col jsutify-items-center md:justify-between items-between md:items-center md:flex-row pt-24 bg-[#FAFAFA] dark:bg-slate-900">
         
         <!--? this is learns left section -->
-        <section class="bg-white p-2 px-6 pb-8 rounded-2xl shadow-lg mx-12 md:mx-4 md:ms-12 md:h-[520px] md:w-[600px]">
+        <section class="bg-white dark:bg-blue-950 p-2 px-6 pb-8 rounded-2xl shadow-lg mx-12 md:mx-4 md:ms-12 md:h-[520px] md:w-[600px]">
             
             <div class="pb-6 pt-6 border-b border-b-[#F44335]">
-                <h4 class="font-semibold text-black text-2xl font-jakarta">What you will learn</h4>
+                <h4 class="font-semibold text-black dark:text-white text-2xl font-jakarta">What you will learn</h4>
             </div>
 
 
@@ -130,37 +130,37 @@
                 <div class="flex items-center gap-5">
                     <img src="assets/chekMark.png" alt="chekMark" class="obejct-contain" >
 
-                    <p class="font-jkarta text-base">Gain skills required to succeed in an entry-level IT job</p>
+                    <p class="font-jkarta text-base dark:text-white">Gain skills required to succeed in an entry-level IT job</p>
                 </div>
 
                 <div class="flex items-center gap-5 py-4">
                     <img src="assets/chekMark.png" alt="chekMark" class="object-contain">
 
-                    <p class="font-jkarta text-base">Learn to perform day-to-day IT support tasks including computer assembly, wireless networking, installing programs, and customer service</p>
+                    <p class="font-jkarta text-base dark:text-white">Learn to perform day-to-day IT support tasks including computer assembly, wireless networking, installing programs, and customer service</p>
                 </div>
 
                 <div class="flex items-center gap-5 py-4">
                     <img src="assets/chekMark.png" alt="chekMark" class="object-contain">
 
-                    <p class="font-jkarta text-base">Learn how to provide end-to-end customer support, ranging from identifying problems to troubleshooting and debugging</p>
+                    <p class="font-jkarta text-base dark:text-white">Learn how to provide end-to-end customer support, ranging from identifying problems to troubleshooting and debugging</p>
                 </div>
 
                 <div class="flex items-center gap-5 pt-4">
                     <img src="assets/chekMark.png" alt="chekMark" class="object-contain">
 
-                    <p>Learn to use systems including Linux, Domain Name Systems, Command-Line Interface, and Binary Code</p>
+                    <p class="font-jkarta text-base dark:text-white">Learn to use systems including Linux, Domain Name Systems, Command-Line Interface, and Binary Code</p>
                 </div>
             </div>
         </section>
 
         <!--? this is learns right section -->
-        <section class="bg-white p-2 px-6 pb-8 rounded-2xl shadow-lg mx-12 md:mx-0 mt-14 md:mt-0 md:h-[520px] md:mx-4 md:me-12  md:w-[600px] ">
+        <section class="bg-white dark:bg-blue-950 p-2 px-6 pb-8 rounded-2xl shadow-lg mx-12 md:mx-0 mt-14 md:mt-0 md:h-[520px] md:ms-4 md:me-12  md:w-[600px] ">
             <div class="">
                 <img src="assets/itPic.png" alt="learntPic" class="object-contain">
             </div>
 
             <div class="pb-6 pt-6 border-b border-b-[#F44335]">
-                <h4 class="font-semibold font-jakarta text-black text-2xl ">Skill you will gain</h4>
+                <h4 class="font-semibold font-jakarta text-black dark:text-white text-2xl ">Skill you will gain</h4>
             </div>
 
             <div class="flex flex-col pt-1">
@@ -193,58 +193,58 @@
  
     
     <!--? this is job section -->
-    <section class="container flex justify-center md:justify-between md:items-center flex-col md:flex-row py-24 bg-[#FAFAFA]">
+    <section class="container flex justify-center md:justify-between md:items-center flex-col md:flex-row py-24 bg-[#FAFAFA] dark:bg-slate-900">
 
         <!--? this is jobs left section -->
-        <section class="p-2 px-6 pb-8 rounded-2xl bg-white shadow-lg mx-12 md:mx-4 md:ms-12 mb-5 md:w-[600px]">
+        <section class="p-2 px-6 pb-8 rounded-2xl bg-white dark:bg-blue-950 shadow-lg mx-12 md:mx-4 md:ms-12 mb-5 md:w-[600px]">
             <div class="pb-6 pt-6 border-b border-b-[#F44335]">
-                <h4 class="font-semibold text-black font-jakarta text-xl">Jobs Assocaited with Certificate </h4>
+                <h4 class="font-semibold text-black dark:text-white font-jakarta text-xl">Jobs Assocaited with Certificate </h4>
             </div>
 
             <div class="flex gap-7 pt-6">
                 <div class="flex flex-col gap-5 font-jakarta">
                     <div class="flex gap-3">
                         <img src="assets/Checkmark (1).png" alt="" class="object-contain">
-                        <p>Database administrator</p>
+                        <p class="dark:text-white">Database administrator</p>
                     </div>
                     <div class="flex gap-3">
                         <img src="assets/Checkmark (1).png" alt="" class="object-contain">
-                        <p>Tech support specialist</p>
+                        <p class="dark:text-white">Tech support specialist</p>
                     </div>
                     <div class="flex gap-3">
                         <img src="assets/Checkmark (1).png" alt="" class="object-contain">
-                        <p>IT specialist</p>
+                        <p class="dark:text-white">IT specialist</p>
                     </div>
                     <div class="flex gap-3">
                         <img src="assets/Checkmark (1).png" alt="" class="object-contain">
-                        <p>Systems analyst</p>
+                        <p class="dark:text-white">Systems analyst</p>
                     </div>
                     <div class="flex gap-3">
                         <img src="assets/Checkmark (1).png" alt="" class="object-contain">
-                        <p>Network engineer</p>
+                        <p class="dark:text-white">Network engineer</p>
                     </div>
                 </div>
 
                 <div class="flex flex-col gap-5 font-jakarta">
                     <div class="flex gap-3">
                         <img src="assets/Checkmark (1).png" alt="" class="object-contain">
-                        <p>Help desk technician</p>
+                        <p class="dark:text-white">Help desk technician</p>
                     </div>
                     <div class="flex gap-3">
                         <img src="assets/Checkmark (1).png" alt="" class="object-contain">
-                        <p>IT support spacialist</p>
+                        <p class="dark:text-white">IT support spacialist</p>
                     </div>
                     <div class="flex gap-3">
                         <img src="assets/Checkmark (1).png" alt="" class="object-contain">
-                        <p>IT technician</p>
+                        <p class="dark:text-white">IT technician</p>
                     </div>
                     <div class="flex gap-3">
                         <img src="assets/Checkmark (1).png" alt="" class="object-contain">
-                        <p>Computer user specialist</p>
+                        <p class="dark:text-white">Computer user specialist</p>
                     </div>
                     <div class="flex gap-3">
                         <img src="assets/Checkmark (1).png" alt="" class="object-contain">
-                        <p>IT assitant </p>
+                        <p class="dark:text-white">IT assitant </p>
                     </div>
                 </div>
             </div>
@@ -253,18 +253,18 @@
         </section>
 
          <!--? this is jobs right section -->
-        <section class="bg-white p-2 px-6 pb-8 rounded-2xl shadow-lg mx-12 md:mx-4 md:me-12 mb-5 mt-14 md:mt-0 md:w-[600px] h-auto md:h-[370px]">
+        <section class="bg-white dark:bg-blue-950 p-2 px-6 pb-8 rounded-2xl shadow-lg mx-12 md:mx-4 md:me-12 mb-5 mt-14 md:mt-0 md:w-[600px] h-auto md:h-[370px]">
             <img src="assets/itPicSecond.png
             " alt="" class="">
         </section>
     </section>
 
     <!--? this is course section -->
-    <section class="relative pb-4">
+    <section class="relative pb-4 dark:bg-gray-900">
         <div class="border-b border-b-[#F44335] md:ml-14 md:mr-10 mx-8 pb-5">
             <img src="assets/batch.png" alt="batchMak" class="absolute right-0 md:right-5 top-3 md:w-[320px] sm:w-[220px] w-[30vw]">
             
-            <h1 class="font-jakarta text-[#2D3142] text-2xl font-semibold md:text-5xl/tight md:font-bold pt-6 md:pt-20 ">There are 5 Courses in this <br>
+            <h1 class="font-jakarta text-[#2D3142] dark:text-white text-2xl font-semibold md:text-5xl/tight md:font-bold pt-6 md:pt-20 ">There are 5 Courses in this <br>
                 Professional Certificate
             </h1>
     
@@ -289,10 +289,10 @@
     </section>
 
     <!--? this is all course card section -->
-    <section class="bg-[#FAFAFA] relative px-8 sm:px-10 lg:px-20 py-10 mt-10 pt-20 md:pt-[150px] sm:mt-20 pb-20">
+    <section class="bg-[#FAFAFA] dark:bg-slate-900 relative px-8 sm:px-10 lg:px-20 py-10 mt-10 pt-20 md:pt-[150px] sm:mt-20 pb-20">
 
         <!--? this is course1 seciton -->
-        <section class="grid grid-cols-12 rounded-xl overflow-hidden shadow-lg bg-white dark:bg-gray-900" id="course1">
+        <section class="grid grid-cols-12 rounded-xl overflow-hidden shadow-lg bg-white dark:bg-sky-950" id="course1">
 
             <!--? this is left section of course1 -->
             <section class="md:col-span-4 col-span-full bg-[#2D3142] ps-8 pe-14 pt-10 pb-10 md:pt-5">
@@ -334,9 +334,9 @@
             <!--? this is right section of course1 -->
             <section class="md:col-span-8 col-span-full ps-8 pe-14 pt-10 md:pt-5 pb-10">
                 
-                <h2 class="font-jakarta font-extrabold  text-lg text-[#F9CCC7] ">About this course</h2>
+                <h2 class="font-jakarta font-extrabold  text-lg text-[#F9CCC7]">About this course</h2>
 
-                <p class="font-poppins font-normal text-[#072125] text-sm/5 pt-3">This course is the first of a series that aims to prepare you for a role as an entry-level IT Support Specialist. In this course, you’ll be introduced to the world of Information Technology, or IT. You’ll learn about the different facets of Information Technology, like computer hardware, the Internet, computer software, troubleshooting, and customer service. This course covers a wide variety of topics in IT that are designed to give you an overview of what’s to come in this certificate program.</p>
+                <p class="font-poppins font-normal text-[#072125] dark:text-white text-sm/5 pt-3">This course is the first of a series that aims to prepare you for a role as an entry-level IT Support Specialist. In this course, you’ll be introduced to the world of Information Technology, or IT. You’ll learn about the different facets of Information Technology, like computer hardware, the Internet, computer software, troubleshooting, and customer service. This course covers a wide variety of topics in IT that are designed to give you an overview of what’s to come in this certificate program.</p>
 
                 <h2 class="font-jakarta font-extrabold  text-lg text-[#F9CCC7] pt-6">What you will learn </h2>
 
@@ -344,32 +344,31 @@
 
                     <div class="flex gap-3 ">
                         <img src="assets/checkMark-sm.png" alt="Checkmark" class="object-contain">
-                        <p class="#181818 text-sm font-jakarta">Understand how the binary system works</p>
+                        <p class="#181818 text-sm font-jakarta dark:text-white">Understand how the binary system works</p>
                     </div>
                     <div class="flex gap-3 ">
                         <img src="assets/checkMark-sm.png" alt="Checkmark" class="object-contain">
-                        <p class="#181818 text-sm font-jakarta">learn how applications are created and how they work nder the hood of a computer</p>
+                        <p class="#181818 text-sm font-jakarta dark:text-white">learn how applications are created and how they work nder the hood of a computer</p>
                     </div>
                     <div class="flex gap-3">
                         <img src="assets/checkMark-sm.png" alt="Checkmark" class="object-contain">
-                        <p class="#181818 text-sm font-jakarta">Utilize common problem-solving methodologies and soft skills in an Information Technology setting</p>
+                        <p class="#181818 text-sm font-jakarta dark:text-white">Utilize common problem-solving methodologies and soft skills in an Information Technology setting</p>
                     </div>
                     <div class="flex gap-3">
                         <img src="assets/checkMark-sm.png" alt="Checkmark" class="object-contain">
-                        <p class="#181818 text-sm font-jakarta">Assemble a computer from scratch</p>
+                        <p class="#181818 text-sm font-jakarta dark:text-white">Assemble a computer from scratch</p>
                     </div>
                     <div class="flex gap-3">
                         <img src="assets/checkMark-sm.png" alt="Checkmark" class="object-contain">
-                        <p class="#181818 text-sm font-jakarta">Choose and install an operating system on a computer</p>
+                        <p class="#181818 text-sm font-jakarta dark:text-white">Choose and install an operating system on a computer</p>
                     </div>
                     <div class="flex gap-3">
                         <img src="assets/checkMark-sm.png" alt="Checkmark" class="object-contain ">
-                        <p class="#181818 text-sm font-jakarta">Understand what the Internet is, how it works, and the impact it has in the modern world</p>
+                        <p class="#181818 text-sm font-jakarta dark:text-white">Understand what the Internet is, how it works, and the impact it has in the modern world</p>
                     </div>
-                    
                 </div>
 
-                <h2 class="font-jakarta font-extrabold  text-lg text-[#F9CCC7] pt-6">Skills you will gain</h2>
+                <h2 class="font-jakarta font-extrabold  text-lg text-[#F9CCC7] dark:text-white pt-6">Skills you will gain</h2>
 
                 <div class="flex md:w-[500px] flex-wrap w-full gap-4 pt-3">
                     <span class="skills ">Binary Code</span>
@@ -384,23 +383,23 @@
                                     
                     <div class="flex items-center gap-3">
                         <div class="w-[7px] h-[7px] bg-[#F9CCC7] rounded-lg"></div>
-                        <p class="font-jakarta text-sm text-[#181818]">Flexible deadline</p>
+                        <p class="font-jakarta text-sm text-[#181818] dark:text-white">Flexible deadline</p>
                     </div>
                     <div class="flex items-center gap-3">
                         <div class="w-[7px] h-[7px] bg-[#F9CCC7] rounded-lg"></div>
-                        <p class="font-jakarta text-sm text-[#181818]">Sheareable Certificate</p>
+                        <p class="font-jakarta text-sm text-[#181818] dark:text-white">Sheareable Certificate</p>
                     </div>
                     <div class="flex items-center gap-3">
                         <div class="w-[7px] h-[7px] bg-[#F9CCC7] rounded-lg"></div>
-                        <p class="font-jakarta text-sm text-[#181818]">Beginner Leevel</p>
+                        <p class="font-jakarta text-sm text-[#181818] dark:text-white">Beginner Leevel</p>
                     </div>
                     <div class="flex items-center gap-3">
                         <div class="w-[7px] h-[7px] bg-[#F9CCC7] rounded-lg"></div>
-                        <p class="font-jakarta text-sm text-[#181818]">100% online</p>
+                        <p class="font-jakarta text-sm text-[#181818] dark:text-white">100% online</p>
                     </div>
                     <div class="flex items-center gap-3">
                         <div class="w-[7px] h-[7px] bg-[#F9CCC7] rounded-lg"></div>
-                        <p class="font-jakarta text-sm text-[#181818]">Approx. 20 hours to complete</p>
+                        <p class="font-jakarta text-sm text-[#181818] dark:text-white">Approx. 20 hours to complete</p>
                     </div>
                 </div>
             </section>
@@ -412,7 +411,7 @@
         </div>
 
         <!--? this is course 02 section -->
-        <section class="grid grid-cols-12 mt-24 md:mt-56 rounded-xl relative overflow-hidden shadow-lg bg-white dark:bg-gray-900" id="course2">
+        <section class="grid grid-cols-12 mt-24 md:mt-56 rounded-xl relative overflow-hidden shadow-lg bg-white dark:bg-sky-950" id="course2">
             
             <!--? this is left section of course2 -->
             <section class="md:col-span-4 col-span-full bg-[#2D3142] ps-8 pe-14 pt-10 pb-10 md:pt-5">
@@ -455,7 +454,7 @@
                 
                 <h2 class="font-jakarta font-extrabold  text-lg text-[#F9CCC7] ">About this course</h2>
     
-                <p class="font-poppins font-normal text-[#072125] text-sm/5 pt-3">This course is designed to provide a full overview of computer networking. We’ll cover everything from the fundamentals of modern networking technologies and protocols to an overview of the cloud to practical applications and network troubleshooting. </p>
+                <p class="font-poppins font-normal text-[#072125] text-sm/5 pt-3 dark:text-white">This course is designed to provide a full overview of computer networking. We’ll cover everything from the fundamentals of modern networking technologies and protocols to an overview of the cloud to practical applications and network troubleshooting. </p>
     
                 <h2 class="font-jakarta font-extrabold  text-lg text-[#F9CCC7] pt-6">What you will learn </h2>
     
@@ -463,27 +462,27 @@
     
                     <div class="flex gap-3 ">
                         <img src="assets/checkMark-sm.png" alt="Checkmark" class="object-contain">
-                        <p class="#181818 text-sm font-jakarta">Describe computer networks in terms of a five-layer modeDescribe computer networks in terms of a five-layer mode</p>
+                        <p class="#181818 text-sm font-jakarta dark:text-white">Describe computer networks in terms of a five-layer modeDescribe computer networks in terms of a five-layer mode</p>
                     </div>
                     <div class="flex gap-3 ">
                         <img src="assets/checkMark-sm.png" alt="Checkmark" class="object-contain">
-                        <p class="#181818 text-sm font-jakarta">Understand all of the standard protocols involved with TCP/IP communications</p>
+                        <p class="#181818 text-sm font-jakarta dark:text-white">Understand all of the standard protocols involved with TCP/IP communications</p>
                     </div>
                     <div class="flex gap-3">
                         <img src="assets/checkMark-sm.png" alt="Checkmark" class="object-contain">
-                        <p class="#181818 text-sm font-jakarta">Grasp powerful network troubleshooting tools and techniquesGrasp powerful network troubleshooting tools and techniques</p>
+                        <p class="#181818 text-sm font-jakarta dark:text-white">Grasp powerful network troubleshooting tools and techniquesGrasp powerful network troubleshooting tools and techniques</p>
                     </div>
                     <div class="flex gap-3">
                         <img src="assets/checkMark-sm.png" alt="Checkmark" class="object-contain">
-                        <p class="#181818 text-sm font-jakarta">learn network services like DNS and DHCP that help make computer networks run</p>
+                        <p class="#181818 text-sm font-jakarta dark:text-white">learn network services like DNS and DHCP that help make computer networks run</p>
                     </div>
                     <div class="flex gap-3">
                         <img src="assets/checkMark-sm.png" alt="Checkmark" class="object-contain">
-                        <p class="#181818 text-sm font-jakarta">Understand cloud computing, everything as a service, and cloud storage</p>
+                        <p class="#181818 text-sm font-jakarta dark:text-white">Understand cloud computing, everything as a service, and cloud storage</p>
                     </div>
                     <div class="flex gap-3">
                         <img src="assets/checkMark-sm.png" alt="Checkmark" class="object-contain ">
-                        <p class="#181818 text-sm font-jakarta">Understand what the Internet is, how it works, and the impact it has in the modern world</p>
+                        <p class="#181818 text-sm font-jakarta dark:text-white">Understand what the Internet is, how it works, and the impact it has in the modern world</p>
                     </div>
                     
                 </div>
@@ -503,23 +502,23 @@
                                     
                     <div class="flex items-center gap-3">
                         <div class="w-[7px] h-[7px] bg-[#F9CCC7] rounded-lg"></div>
-                        <p class="font-jakarta text-sm text-[#181818]">Flexible deadline</p>
+                        <p class="font-jakarta text-sm text-[#181818] dark:text-white">Flexible deadline</p>
                     </div>
                     <div class="flex items-center gap-3">
                         <div class="w-[7px] h-[7px] bg-[#F9CCC7] rounded-lg"></div>
-                        <p class="font-jakarta text-sm text-[#181818]">Sheareable Certificate</p>
+                        <p class="font-jakarta text-sm text-[#181818] dark:text-white">Sheareable Certificate</p>
                     </div>
                     <div class="flex items-center gap-3">
                         <div class="w-[7px] h-[7px] bg-[#F9CCC7] rounded-lg"></div>
-                        <p class="font-jakarta text-sm text-[#181818]">Beginner Leevel</p>
+                        <p class="font-jakarta text-sm text-[#181818] dark:text-white">Beginner Leevel</p>
                     </div>
                     <div class="flex items-center gap-3">
                         <div class="w-[7px] h-[7px] bg-[#F9CCC7] rounded-lg"></div>
-                        <p class="font-jakarta text-sm text-[#181818]">100% online</p>
+                        <p class="font-jakarta text-sm text-[#181818] dark:text-white">100% online</p>
                     </div>
                     <div class="flex items-center gap-3">
                         <div class="w-[7px] h-[7px] bg-[#F9CCC7] rounded-lg"></div>
-                        <p class="font-jakarta text-sm text-[#181818]">Approx. 25 hours to complete</p>
+                        <p class="font-jakarta text-sm text-[#181818] dark:text-white">Approx. 25 hours to complete</p>
                     </div>
                 </div>
             </section>
@@ -531,7 +530,7 @@
         </div>
 
         <!--? this is course 03 section -->
-        <section class="grid grid-cols-12 mt-24 md:mt-96 rounded-xl relative overflow-hidden shadow-lg bg-white dark:bg-gray-900" id="course3">
+        <section class="grid grid-cols-12 mt-24 md:mt-96 rounded-xl relative overflow-hidden shadow-lg bg-white dark:bg-sky-950" id="course3">
             
             <!--? this is left section of course3 -->
             <section class="md:col-span-4 col-span-full bg-[#2D3142] ps-8 pe-14 pt-10 pb-10 md:pt-5">
@@ -574,7 +573,7 @@
                 
                 <h2 class="font-jakarta font-extrabold  text-lg text-[#F9CCC7] ">About this course</h2>
     
-                <p class="font-poppins font-normal text-[#072125] text-sm/5 pt-3">In this course -- through a combination of video lectures, demonstrations, and hands-on practice -- you’ll learn about the main components of an operating system and how to perform critical tasks like managing software and users, and configuring hardware. </p>
+                <p class="font-poppins font-normal text-[#072125] text-sm/5 pt-3 dark:text-white">In this course -- through a combination of video lectures, demonstrations, and hands-on practice -- you’ll learn about the main components of an operating system and how to perform critical tasks like managing software and users, and configuring hardware. </p>
     
                 <h2 class="font-jakarta font-extrabold  text-lg text-[#F9CCC7] pt-6">What you will learn </h2>
     
@@ -582,29 +581,29 @@
     
                     <div class="flex gap-3 ">
                         <img src="assets/checkMark-sm.png" alt="Checkmark" class="object-contain">
-                        <p class="#181818 text-sm font-jakarta">Navigate the Windows and Linux filesystems using a graphical user interface and command line interpreter</p>
+                        <p class="#181818 text-sm font-jakarta dark:text-white">Navigate the Windows and Linux filesystems using a graphical user interface and command line interpreter</p>
                     </div>
                     <div class="flex gap-3 ">
                         <img src="assets/checkMark-sm.png" alt="Checkmark" class="object-contain">
-                        <p class="#181818 text-sm font-jakarta">
+                        <p class="#181818 text-sm font-jakarta dark:text-white">
                             Set up users, groups, and permissions for account access
                         </p>
                     </div>
                     <div class="flex gap-3">
                         <img src="assets/checkMark-sm.png" alt="Checkmark" class="object-contain">
-                        <p class="#181818 text-sm font-jakarta">Install, configure, and remove software on the Windows and Linux operating systems</p>
+                        <p class="#181818 text-sm font-jakarta dark:text-white">Install, configure, and remove software on the Windows and Linux operating systems</p>
                     </div>
                     <div class="flex gap-3">
                         <img src="assets/checkMark-sm.png" alt="Checkmark" class="object-contain">
-                        <p class="#181818 text-sm font-jakarta">Configure disk partitions and filesystems</p>
+                        <p class="#181818 text-sm font-jakarta dark:text-white">Configure disk partitions and filesystems</p>
                     </div>
                     <div class="flex gap-3">
                         <img src="assets/checkMark-sm.png" alt="Checkmark" class="object-contain">
-                        <p class="#181818 text-sm font-jakarta">Understand how system processes work and how to manage them</p>
+                        <p class="#181818 text-sm font-jakarta dark:text-white">Understand how system processes work and how to manage them</p>
                     </div>
                     <div class="flex gap-3">
                         <img src="assets/checkMark-sm.png" alt="Checkmark" class="object-contain ">
-                        <p class="#181818 text-sm font-jakarta">work with system logs and remote connection tools</p>
+                        <p class="#181818 text-sm font-jakarta dark:text-white">work with system logs and remote connection tools</p>
                     </div>
                     
                 </div>
@@ -624,23 +623,23 @@
                                     
                     <div class="flex items-center gap-3">
                         <div class="w-[7px] h-[7px] bg-[#F9CCC7] rounded-lg"></div>
-                        <p class="font-jakarta text-sm text-[#181818]">Flexible deadline</p>
+                        <p class="font-jakarta text-sm text-[#181818] dark:text-white">Flexible deadline</p>
                     </div>
                     <div class="flex items-center gap-3">
                         <div class="w-[7px] h-[7px] bg-[#F9CCC7] rounded-lg"></div>
-                        <p class="font-jakarta text-sm text-[#181818]">Sheareable Certificate</p>
+                        <p class="font-jakarta text-sm text-[#181818] dark:text-white">Sheareable Certificate</p>
                     </div>
                     <div class="flex items-center gap-3">
                         <div class="w-[7px] h-[7px] bg-[#F9CCC7] rounded-lg"></div>
-                        <p class="font-jakarta text-sm text-[#181818]">Beginner Leevel</p>
+                        <p class="font-jakarta text-sm text-[#181818] dark:text-white">Beginner Leevel</p>
                     </div>
                     <div class="flex items-center gap-3">
                         <div class="w-[7px] h-[7px] bg-[#F9CCC7] rounded-lg"></div>
-                        <p class="font-jakarta text-sm text-[#181818]">100% online</p>
+                        <p class="font-jakarta text-sm text-[#181818] dark:text-white">100% online</p>
                     </div>
                     <div class="flex items-center gap-3">
                         <div class="w-[7px] h-[7px] bg-[#F9CCC7] rounded-lg"></div>
-                        <p class="font-jakarta text-sm text-[#181818]">Approx. 31 hours to complete</p>
+                        <p class="font-jakarta text-sm text-[#181818] dark:text-white">Approx. 31 hours to complete</p>
                     </div>
                 </div>
             </section>
@@ -652,7 +651,7 @@
         </div>
 
         <!--? this is course 04 section -->
-        <section class="grid grid-cols-12 mt-24 md:mt-[25rem] rounded-xl relative overflow-hidden shadow-lg bg-white dark:bg-gray-900" id="course4">
+        <section class="grid grid-cols-12 mt-24 md:mt-[25rem] rounded-xl relative overflow-hidden shadow-lg bg-white dark:bg-sky-950" id="course4">
             
             <!--? this is left section of course4 -->
             <section class="md:col-span-4 col-span-full bg-[#2D3142] ps-8 pe-14 pt-10 pb-10 md:pt-5">
@@ -695,7 +694,7 @@
                 
                 <h2 class="font-jakarta font-extrabold  text-lg text-[#F9CCC7] ">About this course</h2>
     
-                <p class="font-poppins font-normal text-[#072125] text-sm/5 pt-3">This course will transition you from working on a single computer to an entire fleet. Systems administration is the field of IT that’s responsible for maintaining reliable computers systems in a multi-user environment. In this course, you’ll learn about the infrastructure services that keep all organizations, big and small, up and running. We’ll deep dive on cloud so that you’ll understand everything from typical cloud infrastructure setups to how to manage cloud resources. You'll also learn how to manage and configure servers and how to use industry tools to manage computers, user information, and user productivity. Finally, you’ll learn how to recover your organization’s IT infrastructure in the event of a disaster. </p>
+                <p class="font-poppins font-normal text-[#072125] text-sm/5 pt-3 dark:text-white">This course will transition you from working on a single computer to an entire fleet. Systems administration is the field of IT that’s responsible for maintaining reliable computers systems in a multi-user environment. In this course, you’ll learn about the infrastructure services that keep all organizations, big and small, up and running. We’ll deep dive on cloud so that you’ll understand everything from typical cloud infrastructure setups to how to manage cloud resources. You'll also learn how to manage and configure servers and how to use industry tools to manage computers, user information, and user productivity. Finally, you’ll learn how to recover your organization’s IT infrastructure in the event of a disaster. </p>
     
                 <h2 class="font-jakarta font-extrabold  text-lg text-[#F9CCC7] pt-6">What you will learn </h2>
     
@@ -703,31 +702,31 @@
     
                     <div class="flex gap-3 ">
                         <img src="assets/checkMark-sm.png" alt="Checkmark" class="object-contain">
-                        <p class="#181818 text-sm font-jakarta">Utilize best practices for choosing hardware, vendors, and services for your organization</p>
+                        <p class="#181818 text-sm font-jakarta dark:text-white">Utilize best practices for choosing hardware, vendors, and services for your organization</p>
                     </div>
                     <div class="flex gap-3 ">
                         <img src="assets/checkMark-sm.png" alt="Checkmark" class="object-contain">
-                        <p class="#181818 text-sm font-jakarta">Understand how the most common infrastructure services that keep an organization running work, and how to manage infrastructure servers</p>
+                        <p class="#181818 text-sm font-jakarta dark:text-white">Understand how the most common infrastructure services that keep an organization running work, and how to manage infrastructure servers</p>
                     </div>
                     <div class="flex gap-3">
                         <img src="assets/checkMark-sm.png" alt="Checkmark" class="object-contain">
-                        <p class="#181818 text-sm font-jakarta">Understand how to make the most of the cloud for your organization</p>
+                        <p class="#181818 text-sm font-jakarta dark:text-white">Understand how to make the most of the cloud for your organization</p>
                     </div>
                     <div class="flex gap-3">
                         <img src="assets/checkMark-sm.png" alt="Checkmark" class="object-contain">
-                        <p class="#181818 text-sm font-jakarta">Manage an organization’s computers and users using the directory services , Active Directory, and OpenLDAP</p>
+                        <p class="#181818 text-sm font-jakarta dark:text-white">Manage an organization’s computers and users using the directory services , Active Directory, and OpenLDAP</p>
                     </div>
                     <div class="flex gap-3">
                         <img src="assets/checkMark-sm.png" alt="Checkmark" class="object-contain">
-                        <p class="#181818 text-sm font-jakarta">Choose and install an operating system on a computer</p>
+                        <p class="#181818 text-sm font-jakarta dark:text-white">Choose and install an operating system on a computer</p>
                     </div>
                     <div class="flex gap-3">
                         <img src="assets/checkMark-sm.png" alt="Checkmark" class="object-contain ">
-                        <p class="#181818 text-sm font-jakarta">Backup your organization’s data and know how to recover your IT infrastructure in  the case of  a disaster</p>
+                        <p class="#181818 text-sm font-jakarta dark:text-white">Backup your organization’s data and know how to recover your IT infrastructure in  the case of  a disaster</p>
                     </div>
                     <div class="flex gap-3">
                         <img src="assets/checkMark-sm.png" alt="Checkmark" class="object-contain ">
-                        <p class="#181818 text-sm font-jakarta">Utilize systems administration knowledge to plan and improve processes for IT environments</p>
+                        <p class="#181818 text-sm font-jakarta dark:text-white">Utilize systems administration knowledge to plan and improve processes for IT environments</p>
                     </div>
                     
                 </div>
@@ -746,23 +745,23 @@
                                     
                     <div class="flex items-center gap-3">
                         <div class="w-[7px] h-[7px] bg-[#F9CCC7] rounded-lg"></div>
-                        <p class="font-jakarta text-sm text-[#181818]">Flexible deadline</p>
+                        <p class="font-jakarta text-sm text-[#181818] dark:text-white">Flexible deadline</p>
                     </div>
                     <div class="flex items-center gap-3">
                         <div class="w-[7px] h-[7px] bg-[#F9CCC7] rounded-lg"></div>
-                        <p class="font-jakarta text-sm text-[#181818]">Sheareable Certificate</p>
+                        <p class="font-jakarta text-sm text-[#181818] dark:text-white">Sheareable Certificate</p>
                     </div>
                     <div class="flex items-center gap-3">
                         <div class="w-[7px] h-[7px] bg-[#F9CCC7] rounded-lg"></div>
-                        <p class="font-jakarta text-sm text-[#181818]">Beginner Leevel</p>
+                        <p class="font-jakarta text-sm text-[#181818] dark:text-white">Beginner Leevel</p>
                     </div>
                     <div class="flex items-center gap-3">
                         <div class="w-[7px] h-[7px] bg-[#F9CCC7] rounded-lg"></div>
-                        <p class="font-jakarta text-sm text-[#181818]">100% online</p>
+                        <p class="font-jakarta text-sm text-[#181818] dark:text-white">100% online</p>
                     </div>
                     <div class="flex items-center gap-3">
                         <div class="w-[7px] h-[7px] bg-[#F9CCC7] rounded-lg"></div>
-                        <p class="font-jakarta text-sm text-[#181818]">Approx. 24 hours to complete</p>
+                        <p class="font-jakarta text-sm text-[#181818] dark:text-white">Approx. 24 hours to complete</p>
                     </div>
                 </div>
             </section>
@@ -774,7 +773,7 @@
         </div>
 
         <!--? this is course 05 section -->
-        <section class="grid grid-cols-12 mt-24 md:mt-[23rem] rounded-xl relative overflow-hidden shadow-lg bg-white dark:bg-gray-900" id="course5">
+        <section class="grid grid-cols-12 mt-24 md:mt-[23rem] rounded-xl relative overflow-hidden shadow-lg bg-white dark:bg-sky-950" id="course5">
             
             <!--? this is left section of course5 -->
             <section class="md:col-span-4 col-span-full bg-[#2D3142] ps-8 pe-14 pt-10 pb-10 md:pt-5">
@@ -817,7 +816,7 @@
                 
                 <h2 class="font-jakarta font-extrabold  text-lg text-[#F9CCC7] ">About this course</h2>
     
-                <p class="font-poppins font-normal text-[#072125] text-sm/5 pt-3">This course covers a wide variety of IT security concepts, tools, and best practices. It introduces threats and attacks and the many ways they can show up. We’ll give you some background of encryption algorithms and how they’re used to safeguard data. Then, we’ll dive into the three As of information security: authentication, authorization, and accounting. We’ll also cover network security solutions, ranging from firewalls to Wifi encryption options. The course is rounded out by putting all these elements together into a multi-layered, in-depth security architecture, followed by recommendations on how to integrate a culture of security into your organization or team.</p>
+                <p class="font-poppins font-normal text-[#072125] text-sm/5 pt-3 dark:text-white">This course covers a wide variety of IT security concepts, tools, and best practices. It introduces threats and attacks and the many ways they can show up. We’ll give you some background of encryption algorithms and how they’re used to safeguard data. Then, we’ll dive into the three As of information security: authentication, authorization, and accounting. We’ll also cover network security solutions, ranging from firewalls to Wifi encryption options. The course is rounded out by putting all these elements together into a multi-layered, in-depth security architecture, followed by recommendations on how to integrate a culture of security into your organization or team.</p>
     
                 <h2 class="font-jakarta font-extrabold  text-lg text-[#F9CCC7] pt-6">What you will learn </h2>
     
@@ -825,27 +824,27 @@
     
                     <div class="flex gap-3 ">
                         <img src="assets/checkMark-sm.png" alt="Checkmark" class="object-contain">
-                        <p class="#181818 text-sm font-jakarta">How various encryption algorithms and techniques work as well as their benefits and limitations</p>
+                        <p class="#181818 text-sm font-jakarta dark:text-white">How various encryption algorithms and techniques work as well as their benefits and limitations</p>
                     </div>
                     <div class="flex gap-3 ">
                         <img src="assets/checkMark-sm.png" alt="Checkmark" class="object-contain">
-                        <p class="#181818 text-sm font-jakarta">Various authentication systems and types</p>
+                        <p class="#181818 text-sm font-jakarta dark:text-white">Various authentication systems and types</p>
                     </div>
                     <div class="flex gap-3">
                         <img src="assets/checkMark-sm.png" alt="Checkmark" class="object-contain">
-                        <p class="#181818 text-sm font-jakarta">The difference between authentication and authorization</p>
+                        <p class="#181818 text-sm font-jakarta dark:text-white">The difference between authentication and authorization</p>
                     </div>
                     <div class="flex gap-3">
                         <img src="assets/checkMark-sm.png" alt="Checkmark" class="object-contain">
-                        <p class="#181818 text-sm font-jakarta">How to evaluate potential risks and recommend ways to reduce risk</p>
+                        <p class="#181818 text-sm font-jakarta dark:text-white">How to evaluate potential risks and recommend ways to reduce risk</p>
                     </div>
                     <div class="flex gap-3">
                         <img src="assets/checkMark-sm.png" alt="Checkmark" class="object-contain">
-                        <p class="#181818 text-sm font-jakarta">Best practices for securing a network</p>
+                        <p class="#181818 text-sm font-jakarta dark:text-white">Best practices for securing a network</p>
                     </div>
                     <div class="flex gap-3">
                         <img src="assets/checkMark-sm.png" alt="Checkmark" class="object-contain ">
-                        <p class="#181818 text-sm font-jakarta">How to help others to grasp security concepts and protect themselves</p>
+                        <p class="#181818 text-sm font-jakarta dark:text-white">How to help others to grasp security concepts and protect themselves</p>
                     </div>
                     
                 </div>
@@ -865,23 +864,23 @@
                                     
                     <div class="flex items-center gap-3">
                         <div class="w-[7px] h-[7px] bg-[#F9CCC7] rounded-lg"></div>
-                        <p class="font-jakarta text-sm text-[#181818]">Flexible deadline</p>
+                        <p class="font-jakarta text-sm text-[#181818] dark:text-white">Flexible deadline</p>
                     </div>
                     <div class="flex items-center gap-3">
                         <div class="w-[7px] h-[7px] bg-[#F9CCC7] rounded-lg"></div>
-                        <p class="font-jakarta text-sm text-[#181818]">Sheareable Certificate</p>
+                        <p class="font-jakarta text-sm text-[#181818] dark:text-white">Sheareable Certificate</p>
                     </div>
                     <div class="flex items-center gap-3">
                         <div class="w-[7px] h-[7px] bg-[#F9CCC7] rounded-lg"></div>
-                        <p class="font-jakarta text-sm text-[#181818]">Beginner Leevel</p>
+                        <p class="font-jakarta text-sm text-[#181818] dark:text-white">Beginner Leevel</p>
                     </div>
                     <div class="flex items-center gap-3">
                         <div class="w-[7px] h-[7px] bg-[#F9CCC7] rounded-lg"></div>
-                        <p class="font-jakarta text-sm text-[#181818]">100% online</p>
+                        <p class="font-jakarta text-sm text-[#181818] dark:text-white">100% online</p>
                     </div>
                     <div class="flex items-center gap-3">
                         <div class="w-[7px] h-[7px] bg-[#F9CCC7] rounded-lg"></div>
-                        <p class="font-jakarta text-sm text-[#181818]">Approx. 25 hours to complete</p>
+                        <p class="font-jakarta text-sm text-[#181818] dark:text-white">Approx. 25 hours to complete</p>
                     </div>
                 </div>
             </section>
@@ -893,19 +892,19 @@
     <section class="relative">
         <img src="assets/testimonialBg.png" alt="testimonyalPic" class="inline object-cover md:h-auto h-[80vh]">
 
-        <div class="md:w-[530px] w-auto h-auto top-12 md:left-28 z-10 absolute rounded-lg bg-white ps-8 md:ps-12 pe-6 md:pe-8 pt-7 pb-8 mx-8 md:mx-0 mt-2 md:mt-0 ">
+        <div class="md:w-[530px] w-auto h-auto top-12 md:left-28 z-10 absolute rounded-lg bg-white dark:bg-cyan-900 ps-8 md:ps-12 pe-6 md:pe-8 pt-7 pb-8 mx-8 md:mx-0 mt-2 md:mt-0 ">
             <img src="assets/quote.png" alt="quote">
 
-            <h3 class="font-bold text-xl md:text-[26px] font-jakarta text-[#072125] pt-7">I worked in retail and needed to make a change. The certificate is really designed for you to go at your own pace. This is something that anybody can do</h3>
+            <h3 class="font-bold text-xl md:text-[26px] font-jakarta text-[#072125] dark:text-white pt-7">I worked in retail and needed to make a change. The certificate is really designed for you to go at your own pace. This is something that anybody can do</h3>
 
             <h5 class="font-jakarta font-medium text-[#F9CCC7] text-base md:text-lg pt-8">Daniel, IT Support Specialist at Central Community College and Google IT Support Certificate graduate</h5>
         </div>
     </section>
 
     <!--? this is footer section -->
-    <footer class="bg-[#fafafa] flex flex-col md:flex-row gap-28 px-8 py-10">
+    <footer class="bg-[#fafafa] dark:bg-slate-950 flex flex-col md:flex-row gap-28 px-8 py-10">
 
-        <div class="pt-4">
+        <div class="pt-4 dark:text-white">
             <a href="#home">
                 <img src="assets/logo.png" alt="logo">
             </a>
@@ -919,7 +918,7 @@
         </div>
             
 
-        <div class="pt-6 ">
+        <div class="pt-6 dark:text-white">
             <a href="#">
                 <h5 class="font-jakarta font-semibold hover:font-bold md:pb-2">Home</h5>
             </a>
@@ -937,7 +936,7 @@
             </a>
         </div>
 
-        <div class="pt-6 flex-col ">
+        <div class="pt-6 flex-col dark:text-white">
             <a href="#">
                 <h5 class="font-jakarta font-semibold hover:font-bold md:pb-2">About Us</h5>
             </a>
@@ -955,7 +954,7 @@
             </a>
         </div>
 
-        <div class="pt-6 flex-col ">
+        <div class="pt-6 flex-col dark:text-white">
             <a href="#">
                 <h5 class="font-jakarta font-semibold hover:font-bold md:pb-2">Upskill</h5>
             </a>
@@ -973,7 +972,7 @@
             </a>
         </div>
 
-        <div class="pt-6 flex-col ">
+        <div class="pt-6 flex-col dark:text-white">
             <a href="#">
                 <h5 class="font-jakarta font-semibold hover:font-bold md:pb-2">Contact Us</h5>
             </a>
@@ -995,8 +994,18 @@
     <!--? this is copyright section -->
     <section>
         <hr>
-        <p class="text-center font-jakarta text-sm py-2 pb-2 md:py-3">Copyright &copy; 2024 Creative For You LTD</p>
+        <p class="text-center font-jakarta text-sm py-2 pb-2 md:py-3 dark:text-white">Copyright &copy; 2024 Creative For You LTD</p>
     </section>
 
+
+
+    <!--? switching mode -->
+    <script>
+        const htmlTag = document.getElementById("htmlTag")
+        document.getElementById("switch").addEventListener("click", function () {
+           htmlTag.classList.toggle("dark");
+        });        
+    </script>
+    
 </body>
 </html>
